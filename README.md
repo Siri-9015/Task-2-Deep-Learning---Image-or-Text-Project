@@ -76,8 +76,8 @@ cifar10-transfer-learning/
 │   └── classification_report.txt
 │
 └── test_images/
-    ├── image1.jpg
-    └── image2.jpg
+    ├── sample.jpg
+    └── sample1.jpg
 ```
 
 ---
