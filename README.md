@@ -1,12 +1,22 @@
 # CIFAR-10 Image Classification using MobileNetV2
 
-## Objective
+## 📌 Project Overview
 
-Develop a Deep Learning model using TensorFlow and Transfer Learning for image classification.
+This project implements an Image Classification model using Transfer Learning with MobileNetV2 on the CIFAR-10 dataset. The model is built using TensorFlow and Keras and is capable of classifying images into 10 different categories.
 
-## Dataset
+This project was developed as **Task 2** for the AI Internship Program.
 
-CIFAR-10 Dataset with 10 classes:
+---
+
+## 🎯 Objective
+
+Develop a Deep Learning model using TensorFlow and Transfer Learning for image classification with high accuracy and efficient inference.
+
+---
+
+## 📂 Dataset
+
+The project uses the CIFAR-10 dataset containing 60,000 images across 10 classes:
 
 * Airplane
 * Automobile
@@ -19,22 +29,113 @@ CIFAR-10 Dataset with 10 classes:
 * Ship
 * Truck
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 * TensorFlow
 * Keras
 * MobileNetV2
 * Transfer Learning
 * Data Augmentation
+* Matplotlib
+* Scikit-learn
 
-## Features Implemented
+---
 
-* Pretrained MobileNetV2
+## ✨ Features Implemented
+
+* Pretrained MobileNetV2 Model
+* Transfer Learning
 * Image Augmentation
-* Training and Validation Curves
+* Training & Validation Accuracy Graphs
 * Confusion Matrix
 * Classification Report
 * Model Saving and Loading
+* User Image Prediction System
+* Multi-image Testing Support
+
+---
+
+## 📁 Project Structure
+
+```bash
+cifar10-transfer-learning/
+│
+├── train.py
+├── inference.py
+├── requirements.txt
+├── README.md
+│
+├── saved_model/
+│   └── cifar10_mobilenetv2.keras
+│
+├── outputs/
+│   ├── accuracy_loss.png
+│   ├── confusion_matrix.png
+│   └── classification_report.txt
+│
+└── test_images/
+    ├── image1.jpg
+    └── image2.jpg
+```
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2️⃣ Train the Model
+
+```bash
+python train.py
+```
+
+### 3️⃣ Run Inference
+
+```bash
+python inference.py
+```
+
+---
+
+## 📊 Model Performance
+
+* Validation Accuracy: ~85% to 90%
+* Optimized using Transfer Learning and Data Augmentation
+
+---
+
+## 📈 Outputs Generated
+
+* Accuracy & Loss Curves
+* Confusion Matrix
+* Classification Report
+* Saved `.keras` Model
+
+---
+
+## 🎓 Learning Outcome
+
+This project provided practical experience in:
+
+* Deep Learning
+* Transfer Learning
+* CNN-based Image Classification
+* Model Evaluation
+* TensorFlow & Keras Workflow
+* Real-world AI Project Development
+
+---
+
+## 👩‍💻 Internship Information
+
+Developed as part of the AI Internship Program - Task 2.
 * User Image Testing
 
 ## How to Run
