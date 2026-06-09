@@ -37,26 +37,6 @@ CIFAR-10 Dataset with 10 classes:
 * Model Saving and Loading
 * User Image Testing
 
-## Project Structure
-
-cifar10-transfer-learning/
-│
-├── train.py
-├── inference.py
-├── requirements.txt
-├── README.md
-│
-├── saved_model/
-│   └── cifar10_mobilenetv2.keras
-│
-├── outputs/
-│   ├── accuracy_loss.png
-│   ├── confusion_matrix.png
-│   └── classification_report.txt
-│
-└── test_images/
-└── sample.jpg
-
 ## How to Run
 
 ### Install Dependencies
