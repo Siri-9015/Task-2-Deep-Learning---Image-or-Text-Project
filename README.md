@@ -138,20 +138,6 @@ This project provided practical experience in:
 Developed as part of the AI Internship Program - Task 2.
 * User Image Testing
 
-## How to Run
-
-### Install Dependencies
-
-pip install -r requirements.txt
-
-### Train the Model
-
-python train.py
-
-### Run Inference
-
-python inference.py
-
 ## Expected Accuracy
 
 Approximately 85% to 90% validation accuracy depending on training epochs and hardware.
